@@ -3,7 +3,7 @@ const app = express();
 const PORT = 3000;
 
 // Root Endpoint
-app.get("/", (req, res) => {
+app.get("/app", (req, res) => {
   res.send("Welcome to the Simple Node.js API!");
 });
 
